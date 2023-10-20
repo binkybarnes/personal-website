@@ -6,8 +6,8 @@ body {
 .layout {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between;
-  height: 100dvh; */
+  /* justify-content: space-between; */
+  height: 100dvh;
 }
 
 * {
@@ -22,9 +22,9 @@ a:visited {
   color: inherit;
 }
 
-.section--1 {
-  padding-block: 36px;
-  padding-inline: clamp(16px, 5vw, 181px);
+.section--1 .wrapper {
+  padding-block: 24px;
+  padding-inline: clamp(16px, 30vw, 251px);
 }
 
 ul {
@@ -42,7 +42,7 @@ ul {
 }
 
 .site__title {
-  font-size: 18px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -51,8 +51,13 @@ ion-icon {
   font-size: 18px;
 }
 
-.footer {
+.section--4 .wrapper {
+  padding-block: 36px 36px;
+  padding-inline: clamp(16px, 30vw, 251px);
   background-color: black;
+}
+
+.footer {
   color: white;
 }
 
@@ -64,4 +69,37 @@ ion-icon {
 .footer__icons {
   display: flex;
   gap: 16px;
+}
+
+/* section 2  */
+.section--2 .wrapper {
+  padding-block: 60px 60px;
+  padding-inline: clamp(16px, 30vw, 251px);
+  background-image: url(/imgs/pawel-czerwinski-s2YRJnAih-w-unsplash.jpg);
+  background-size: cover;
+}
+
+.page__title {
+  height: inherit;
+  background: inherit;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: invert(1) grayscale(1) contrast(9) drop-shadow(0.02em 0.02em white);
+  font-size: 3.5rem;
+}
+
+.page__lead {
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* section--3 */
+
+.section--3 {
+  flex: 1;
+}
+.section--3 .wrapper {
+  padding-block: 60px 60px;
+  padding-inline: clamp(16px, 30vw, 251px);
 }
