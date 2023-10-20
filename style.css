@@ -6,6 +6,8 @@ body {
 .layout {
   display: flex;
   flex-direction: column;
+  /* justify-content: space-between;
+  height: 100dvh; */
 }
 
 * {
@@ -49,7 +51,17 @@ ion-icon {
   font-size: 18px;
 }
 
+.footer {
+  background-color: black;
+  color: white;
+}
+
 .footer a {
   display: flex;
   align-items: center;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 16px;
 }
