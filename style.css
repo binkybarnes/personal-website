@@ -75,7 +75,7 @@ ion-icon {
 .section--2 .wrapper {
   padding-block: 60px 60px;
   padding-inline: clamp(16px, 30vw, 251px);
-  background-image: url(/imgs/pawel-czerwinski-s2YRJnAih-w-unsplash.jpg);
+  background-image: url(imgs/pawel-czerwinski-s2YRJnAih-w-unsplash.jpg);
   background-size: cover;
 }
 
