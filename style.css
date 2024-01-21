@@ -27,13 +27,15 @@ a:visited {
   padding-inline: clamp(16px, 30vw, 251px);
 }
 
-ul {
+ul.footer__icons,
+ul.header__menu {
   list-style: none;
 }
 
 .heading {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__menu {
@@ -78,6 +80,9 @@ ion-icon {
   padding-block: 60px 60px;
   padding-inline: clamp(16px, 30vw, 251px);
   overflow: hidden;
+}
+
+.section--2 .wrapper.hero {
   background-image: url(imgs/pawel-czerwinski-s2YRJnAih-w-unsplash.jpg);
   background-size: cover;
 }
@@ -105,4 +110,54 @@ ion-icon {
 .section--3 .wrapper {
   padding-block: 60px 60px;
   padding-inline: clamp(16px, 30vw, 251px);
+}
+
+/* projects page */
+
+.section--1 .wrapper {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.section--2.projects {
+  flex: 1;
+}
+
+.section--2.projects .wrapper {
+  padding-block: 1em 1em;
+  padding-inline: clamp(64px, 31vw, 700px);
+}
+
+/* projects list */
+
+.projects__list {
+  padding-block: 2em 2em;
+}
+
+.project__item {
+  padding-block: 1.5em 1.5em;
+}
+
+.project__title {
+  padding-block-end: 0.75em;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.project__date {
+  padding-block: 0.75em 0.75em;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+ul.project__desc {
+  padding-inline-start: 60px;
+}
+
+ul li.project__desc-item {
+  margin-bottom: 0.5em;
+}
+
+ul li.project__desc-item a,
+ul li.project__desc-item a:visited {
+  color: #4e91a5;
+  text-decoration: underline;
 }
